@@ -1,0 +1,7 @@
+import {createRouter, createWebHistory} from 'vue-router'
+import CoursesListPage from '../pages/CoursesListPage.vue'
+import CoursePage from '../pages/CoursePage.vue'
+import LoginPage from '../pages/LoginPage.vue'
+import DashboardPage from '../pages/DashboardPage.vue'
+import NotFoundPage from '../pages/NotFoundPage.vue'
+
