@@ -41,7 +41,7 @@ const filteredCourses = computed(() => {
 })
 const setCategory = (category) => {
     currentCategory.value = category
-    router.push{ { name: 'Courses', query: { category: category } } }
+    router.push{{{ name: 'Courses', query: {{ category: category }} }
 }
 </script>
 
