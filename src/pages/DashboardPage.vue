@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <h1>Личный кабинет</h1>
-        <p>Поздлравляем, вы авторизованы</p>
+        <p>Поздравляем, вы авторизованы</p>
         <button @click="logout" class="btn-logout">Сбежать</button>
     </div>
 </template>

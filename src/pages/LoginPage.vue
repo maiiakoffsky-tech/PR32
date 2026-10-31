@@ -20,7 +20,7 @@ const route = useRoute()
 
 const login = () => {
   if (password.value === '1234') {
-    localStorage.setItem('authToken', 'demo')
+    localStorage.setItem('authToken', 'vhod')
     const redirect = route.query.redirect || '/dashboard'
     router.push(redirect)
   } else {

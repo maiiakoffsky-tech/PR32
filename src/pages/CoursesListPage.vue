@@ -1,19 +1,16 @@
 <template>
     <div class="page">
         <h1>Каталог курсов</h1>
-
         <div class="filters">
             <button :class="{ active: currentCategory === 'all' }" @click="setCategory('all')">Все</button>
             <button :class="{ active: currentCategory === 'language' }" @click="setCategory('language')">Языки</button>
             <button :class="{ active: currentCategory === 'special' }"
                 @click="setCategory('special')">Спецкурсы</button>
         </div>
-
         <div v-if="loading" class="spinner-box">
             <div class="spinner"></div>
             <p>Загрузка...</p>
         </div>
-
         <div v-else-if="filteredCourses.length > 0" class="courses-grid">
             <div v-for="course in filteredCourses" :key="course.id" class="card">
                 <h3>{{ course.title }}</h3>
@@ -21,7 +18,6 @@
                 <RouterLink :to="{ name: 'Course', params: { id: course.id } }" class="btn-more">Подробнее</RouterLink>
             </div>
         </div>
-
         <p v-else>Курсы не найдены</p>
     </div>
 </template>
@@ -40,7 +36,7 @@ const loading = ref(true)
 onMounted(() => {
     setTimeout(() => {
         loading.value = false
-    }, 1000)
+    }, 2000)
 })
 
 const filteredCourses = computed(() => {
