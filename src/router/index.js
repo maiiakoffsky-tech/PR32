@@ -31,7 +31,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  const isAuth = localStorage.getItem('authToken') === 'demo'
+  const isAuth = localStorage.getItem('authToken') === 'vhod'
   if (to.meta.requiresAuth && !isAuth) {
     next({ name: 'Login', query: { redirect: to.fullPath } })
     return

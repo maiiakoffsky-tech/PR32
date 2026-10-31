@@ -28,10 +28,3 @@ const login = () => {
   }
 }
 </script>
-
-<style scoped>
-.page { max-width: 400px; margin: 50px auto; padding: 20px; text-align: center; font-family: sans-serif; }
-.login-form { display: flex; flex-direction: column; gap: 10px; }
-input, button { padding: 10px; font-size: 16px; }
-.error { color: red; margin-top: 10px; }
-</style>

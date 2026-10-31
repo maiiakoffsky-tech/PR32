@@ -15,21 +15,3 @@ const logout = () => {
     router.push('/login')
 }
 </script>
-
-<style scoped>
-.page {
-    text-align: center;
-    padding: 50px;
-    font-family: sans-serif;
-}
-
-.btn-logout {
-    padding: 10px 20px;
-    background: #e74c3c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-</style>

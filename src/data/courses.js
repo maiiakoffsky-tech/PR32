@@ -5,7 +5,7 @@ export const courses = [
         category: 'language',
         description: 'Полный курс по основам древнего языка Иврит',
         program: ['Алфавит и письмо, система корней, грамматика, времена'],
-        reviews: [{ author: 'Ierusalim', text: 'Почему так сложно?', rating: 3 }]
+        reviews: [{ author: 'Ierusalim', text: 'Почему так сложно?', rating: '✪✪✪✫✫' }]
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const courses = [
         category: 'special',
         description: 'Обучитесь на не нужную профессию которая и до ИИ приносила копейки. Всего за 10000!',
         program: ['Оформление в ворде, научим писать на клавиатуре'],
-        reviews: [{ author: 'Allah', text: 'Очень понятно!', rating: 4 }]
+        reviews: [{ author: 'Allah', text: 'Очень понятно!', rating: '✪✪✪✪✪' }]
     },
     {
         id: 3,
@@ -21,6 +21,6 @@ export const courses = [
         category: 'language',
         description: 'С вами будут заниматься настоящие носители, Пей Чай Сам, Чо Ко Пай, а так же гуру китайского: Обдулахмед',
         program: ['Иероглифы и письменность, пиньинь, тоны'],
-        reviews: [{ author: 'Lucifer', text: 'У гуру классный акцент', rating: 4 }]
+        reviews: [{ author: 'Lucifer', text: 'У гуру классный акцент', rating: '✪✪✪✪✫' }]
     }
 ];

@@ -14,7 +14,3 @@ const props = defineProps({
 
 const course = computed(() => courses.find(c => c.id === Number(props.id)))
 </script>
-
-<style scoped>
-.tab-content { padding: 20px; background-color: rgb(252, 227, 145); border-radius: 20px; }
-</style>
